@@ -5,4 +5,43 @@
       <option name="HTML" value="true" />
     </context>
   </template>
+  <template name="swi2" value="switch ($str$) {&#10;    case &quot;$case1$&quot;: $case1Body$;&#10;    case &quot;$case2$&quot;: $case2Body$;&#10;    $default$&#10;}" description="switch string with 2 cases" toReformat="false" toShortenFQNames="true">
+    <variable name="str" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="case1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="case1Body" expression="" defaultValue="&quot;break&quot;" alwaysStopAt="true" />
+    <variable name="case2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="case2Body" expression="" defaultValue="&quot;break&quot;" alwaysStopAt="true" />
+    <variable name="default" expression="" defaultValue="&quot;default:&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="swi3" value="switch ($str$) {&#10;    case &quot;$case1$&quot;: $case1Body$;&#10;    case &quot;$case2$&quot;: $case2Body$;&#10;    case &quot;$case3$&quot;: $case3Body$;&#10;    $default$&#10;}" description="switch string with 3 cases" toReformat="false" toShortenFQNames="true">
+    <variable name="str" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="case1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="case1Body" expression="" defaultValue="&quot;break&quot;" alwaysStopAt="true" />
+    <variable name="case2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="case2Body" expression="" defaultValue="&quot;break&quot;" alwaysStopAt="true" />
+    <variable name="case3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="case3Body" expression="" defaultValue="&quot;break&quot;" alwaysStopAt="true" />
+    <variable name="default" expression="" defaultValue="&quot;default:&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="swi4" value="switch ($str$) {&#10;    case &quot;$case1$&quot;: $case1Body$;&#10;    case &quot;$case2$&quot;: $case2Body$;&#10;    case &quot;$case3$&quot;: $case3Body$;&#10;    case &quot;$case4$&quot;: $case4Body$;&#10;    $default$&#10;}&#10;" description="switch string with 4 cases" toReformat="false" toShortenFQNames="true">
+    <variable name="str" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="case1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="case1Body" expression="" defaultValue="&quot;break&quot;" alwaysStopAt="true" />
+    <variable name="case2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="case2Body" expression="" defaultValue="&quot;break&quot;" alwaysStopAt="true" />
+    <variable name="case3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="case3Body" expression="" defaultValue="&quot;break&quot;" alwaysStopAt="true" />
+    <variable name="case4" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="case4Body" expression="" defaultValue="&quot;break&quot;" alwaysStopAt="true" />
+    <variable name="default" expression="" defaultValue="&quot;default:&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
