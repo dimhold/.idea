@@ -1,0 +1,38 @@
+<scheme name="dimhold" version="142" parent_scheme="Darcula">
+  <metaInfo>
+    <property name="created">2019-03-21T15:09:45</property>
+    <property name="ide">Idea</property>
+    <property name="ideVersion">2018.3.3.0.0</property>
+    <property name="modified">2019-03-21T15:25:56</property>
+    <property name="originalScheme">_@user_Darcula</property>
+  </metaInfo>
+  <attributes>
+    <option name="ERRORS_ATTRIBUTES">
+      <value>
+        <option name="EFFECT_COLOR" value="bc3f3c" />
+        <option name="ERROR_STRIPE_COLOR" value="ff2000" />
+        <option name="EFFECT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="RUNTIME_ERROR">
+      <value>
+        <option name="EFFECT_COLOR" value="f49810" />
+        <option name="ERROR_STRIPE_COLOR" value="ff0000" />
+        <option name="EFFECT_TYPE" value="5" />
+      </value>
+    </option>
+    <option name="SEARCH_RESULT_ATTRIBUTES">
+      <value>
+        <option name="BACKGROUND" value="b32de9" />
+        <option name="ERROR_STRIPE_COLOR" value="530d" />
+      </value>
+    </option>
+    <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
+      <value>
+        <option name="BACKGROUND" value="155221" />
+        <option name="EFFECT_COLOR" value="3c704b" />
+        <option name="ERROR_STRIPE_COLOR" value="61936f" />
+      </value>
+    </option>
+  </attributes>
+</scheme>

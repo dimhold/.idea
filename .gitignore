@@ -6,3 +6,4 @@ plugins
 port
 port.lock
 tasks
+terminal
